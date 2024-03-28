@@ -30,6 +30,9 @@ body {
 .fa-file-pdf-o:before {
     content: "\f1c1"
 }
+.fa-code:before{
+    content: "\f121"
+}
 
 article,
 aside,
