@@ -17,23 +17,18 @@ body {
     font-family: 'Nunito Sans', sans-serif
 }
 
-.fa-envelope:before {
+/*.fa-envelope:before {
     content: "\f0e0"
 }
-
-.fa-telegram:before {
-    content: "\f2c6"
+.fa-free-code-camp:before {
+    content: "\f2c5"
 }
 .fa-github-alt:before {
     content: "\f113"
 }
 .fa-file-pdf-o:before {
     content: "\f1c1"
-}
-.fa-code:before{
-    content: "\f121"
-}
-
+}*/
 article,
 aside,
 details,
@@ -366,7 +361,7 @@ strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
-    color: #bf6060
+    color: #000000
 }
 
 h2 {
@@ -400,9 +395,9 @@ a img {
 #particles-js {
     background: #ffffff;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414141, #000000);
+    background: -webkit-linear-gradient(to right, #535353d3, #000000);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #454545, #000000);
+    background: linear-gradient(to right, #535353d3, #000000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -414,7 +409,7 @@ a img {
     background-attachment: fixed
 }
 
-#particles-js .particles-js-canvas-el {s
+#particles-js .particles-js-canvas-el {
     width: 100% !important;
     height: 100vh !important;
 }
@@ -494,7 +489,7 @@ a img {
     height: 25px;
     padding: 10px;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid #ffffff59;
     transition: all .4s;
     width: 25px;
     font-size: 25px;
@@ -504,7 +499,7 @@ a img {
 .header-icons .icon:active,
 .header-icons .icon:hover {
     color: #000000;
-    background: #fff
+    background: hsl(0, 0%, 100%)
 }
 
 @media only screen and (min-width:550px) {
