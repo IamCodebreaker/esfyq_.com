@@ -1,0 +1,49 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #000000;
+    font-family: 'Nunito Sans', sans-serif
+    
+}
+
+.sheader{
+    container:inherit;
+    font-size: large;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+
+#particles-js {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #535353d3, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #535353d3, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#particles-js .particles-js-canvas-el {
+    width: 100% !important;
+    height: 100vh !important;
+}
