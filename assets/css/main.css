@@ -15,8 +15,6 @@ body {
     line-height: 1.5;
     color: #000000;
     font-family: 'Nunito Sans', sans-serif
-    opacity: 0;
-    transition: opacity .5s;
 }
 
 /*.fa-envelope:before {
@@ -489,6 +487,7 @@ ul {
 .header-icons .icon:hover {
     color: #ffffff;
     background: hsl(0, 0%, 0%)
+    tr
 }
 
 @media only screen and (min-width:550px) {
