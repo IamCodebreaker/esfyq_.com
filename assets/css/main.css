@@ -1,11 +1,11 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Rubik);
 
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -14,21 +14,9 @@ body {
     font-size: 100%;
     line-height: 1.5;
     color: #000000;
-    font-family: 'Nunito Sans', sans-serif
+    font-family: "Nunito Sans", sans-serif;
 }
 
-/*.fa-envelope:before {
-    content: "\f0e0"
-}
-.fa-free-code-camp:before {
-    content: "\f2c5"
-}
-.fa-github-alt:before {
-    content: "\f113"
-}
-.fa-file-pdf-o:before {
-    content: "\f1c1"
-}*/
 article,
 aside,
 details,
@@ -40,22 +28,22 @@ main,
 menu,
 nav,
 section {
-    display: block
+    display: block;
 }
 
 h1 {
-    margin: .67em 0;
+    margin: 0.67em 0;
     font-size: 2.5rem;
 }
 
 figure {
-    margin: 1em 40px
+    margin: 1em 40px;
 }
 
 hr {
     box-sizing: content-box;
     height: 0;
-    overflow: visible
+    overflow: visible;
 }
 
 code,
@@ -63,35 +51,35 @@ kbd,
 pre,
 samp {
     font-family: monospace;
-    font-size: 1em
+    font-size: 1em;
 }
 
 a {
     background-color: transparent;
-    -webkit-text-decoration-skip: objects
+    -webkit-text-decoration-skip: objects;
 }
 
 abbr[title] {
     border-bottom: none;
-    text-decoration: underline dotted
+    text-decoration: underline dotted;
 }
 
 b,
 strong {
-    font-weight: bolder
+    font-weight: bolder;
 }
 
 dfn {
-    font-style: italic
+    font-style: italic;
 }
 
 mark {
     background-color: #ff0;
-    color: #000
+    color: #000;
 }
 
 small {
-    font-size: 80%
+    font-size: 80%;
 }
 
 sub,
@@ -99,34 +87,34 @@ sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 sub {
-    bottom: -.25em
+    bottom: -0.25em;
 }
 
 sup {
-    top: -.5em
+    top: -0.5em;
 }
 
 audio,
 canvas,
 video {
-    display: inline-block
+    display: inline-block;
 }
 
 audio:not([controls]) {
     display: none;
-    height: 0
+    height: 0;
 }
 
 img {
-    border-style: none
+    border-style: none;
 }
 
 svg:not(:root) {
-    overflow: hidden
+    overflow: hidden;
 }
 
 button,
@@ -137,97 +125,96 @@ textarea {
     font-family: sans-serif;
     font-size: 100%;
     line-height: 1.15;
-    margin: 0
+    margin: 0;
 }
 
 button,
 input {
-    overflow: visible
+    overflow: visible;
 }
 
 button,
 select {
-    text-transform: none
+    text-transform: none;
 }
 
-[type=reset],
-[type=submit],
+[type="reset"],
+[type="submit"],
 button,
-html [type=button] {
-    -webkit-appearance: button
+html [type="button"] {
+    -webkit-appearance: button;
 }
 
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
 button::-moz-focus-inner {
     border-style: none;
-    padding: 0
+    padding: 0;
 }
 
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
 button:-moz-focusring {
-    outline: 1px dotted ButtonText
+    outline: 1px dotted ButtonText;
 }
 
 fieldset {
-    padding: .35em .75em .625em
+    padding: 0.35em 0.75em 0.625em;
 }
 
 legend {
     color: inherit;
     display: table;
     max-width: 100%;
-    white-space: normal
+    white-space: normal;
 }
 
 progress {
     display: inline-block;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 textarea {
-    overflow: auto
+    overflow: auto;
 }
 
-[type=checkbox],
-[type=radio],
+[type="checkbox"],
+[type="radio"],
 legend {
     box-sizing: border-box;
-    padding: 0
+    padding: 0;
 }
 
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
-    height: auto
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
 }
 
-[type=search] {
+[type="search"] {
     -webkit-appearance: textfield;
-    outline-offset: -2px
+    outline-offset: -2px;
 }
 
-[type=search]::-webkit-search-cancel-button,
-[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
 }
 
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
-    font: inherit
+    font: inherit;
 }
 
 summary {
-    display: list-item
+    display: list-item;
 }
 
 [hidden],
 template {
-    display: none
+    display: none;
 }
-
 
 /*Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
 License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)*/
@@ -235,35 +222,34 @@ License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)*/
 @-webkit-keyframes fa-spin {
     0% {
         -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
+        transform: rotate(0deg);
     }
 
     to {
         -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
+        transform: rotate(359deg);
     }
 }
 
 @keyframes fa-spin {
     0% {
         -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
+        transform: rotate(0deg);
     }
 
     to {
         -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
+        transform: rotate(359deg);
     }
 }
 
 @-webkit-keyframes pulse {
-
     0%,
     to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
         filter: alpha(opacity=40);
-        opacity: .4;
-        top: 0
+        opacity: 0.4;
+        top: 0;
     }
 
     50% {
@@ -271,18 +257,17 @@ License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)*/
         -webkit-filter: none;
         filter: none;
         opacity: 1;
-        top: -10px
+        top: -10px;
     }
 }
 
 @keyframes pulse {
-
     0%,
     to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
         filter: alpha(opacity=40);
-        opacity: .4;
-        top: 0
+        opacity: 0.4;
+        top: 0;
     }
 
     50% {
@@ -290,16 +275,23 @@ License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)*/
         -webkit-filter: none;
         filter: none;
         opacity: 1;
-        top: -10px
+        top: -10px;
     }
 }
 
 @font-face {
-    font-family: 'FontAwesome';
+    font-family: "FontAwesome";
     src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
-    src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
+    src:
+        url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0)
+            format("embedded-opentype"),
+        url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),
+        url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),
+        url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),
+        url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular)
+            format("svg");
     font-weight: 400;
-    font-style: normal
+    font-style: bold;
 }
 
 .fa {
@@ -308,20 +300,20 @@ License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)*/
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .fa-lg {
     font-size: 1.33333333em;
-    line-height: .75em;
-    vertical-align: -15%
+    line-height: 0.75em;
+    vertical-align: -15%;
 }
 
 :root .fa-flip-vertical,
 :root .fa-rotate-180,
 :root .fa-rotate-270,
 :root .fa-rotate-90 {
-    filter: none
+    filter: none;
 }
 
 .fa-stack {
@@ -330,7 +322,7 @@ License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)*/
     width: 2em;
     height: 2em;
     line-height: 2em;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .fa-stack-1x,
@@ -338,19 +330,19 @@ License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)*/
     position: absolute;
     left: 0;
     width: 100%;
-    text-align: center
+    text-align: center;
 }
 
 .fa-stack-1x {
-    line-height: inherit
+    line-height: inherit;
 }
 
 .fa-stack-2x {
-    font-size: 2em
+    font-size: 2em;
 }
 
 .fa-inverse {
-    color: #fff
+    color: #000000;
 }
 
 h1,
@@ -360,32 +352,32 @@ strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
-    color: #ff0000
+    color: #000000;
 }
 
 h2 {
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 
 h4 {
-    font-size: 1rem
+    font-size: 1rem;
 }
 
 ol,
 ul {
-    padding-left: 40px
+    padding-left: 40px;
 }
 
 #particles-js {
-    background: #000000;
+    background: #ffffff;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #535353d3, #000000);
+    background: -webkit-linear-gradient(to right, #ffffff, #ffffff);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #535353d3, #000000);
+    background: linear-gradient(to right, #ffffff, #ffffff);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -395,11 +387,11 @@ ul {
     background-repeat: no-repeat;
     background-size: auto;
     background-attachment: local;
-}
 
 #particles-js .particles-js-canvas-el {
     width: 100% !important;
     height: 100vh !important;
+    color: #000000;
 }
 
 .header {
@@ -407,26 +399,26 @@ ul {
     text-align: center;
     color: #000000;
     position: absolute;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     width: 100%;
     top: 50%;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
-    .header .site-title {
+.header .site-title {
     font-size: 35px;
     display: block;
     line-height: 1;
-    color: #ffffffa9;
+    color: #000000;
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width: 550px) {
     .header .site-title {
         margin: 0;
-        font-size: 100px
+        font-size: 100px;
     }
 }
 
@@ -434,66 +426,65 @@ ul {
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: #fff;
-    margin-top: 10px
+    color: #000000;
+    margin-top: 10px;
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width: 550px) {
     .header .site-description {
-        font-size: 40px
+        font-size: 40px;
     }
 }
 
 .header-links {
-    margin: 10px
+    margin: 10px;
 }
 
 .header-links .link {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 15px;
-    margin: 10px
+    margin: 10px;
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width: 550px) {
     .header-links .link {
-        font-size: 20px
+        font-size: 20px;
     }
 }
 
 .header-icons {
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
 }
 
 .header-icons .icon {
-    color: #fff5f5;
-    text-align: center
+    color: #000000;
+    text-align: center;
 }
 
 .header-icons .icon {
     height: 25px;
     padding: 10px;
     border-radius: 50%;
-    border: 2px solid #ffffff59;
-    transition: all .4s;
+    border: 2px solid #000000;
+    transition: all 0.4s;
     width: 25px;
     font-size: 25px;
-    margin: 6px
+    margin: 6px;
 }
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
-    color: #ffffff;
-    background: hsl(0, 0%, 0%)
-    tr
+    color: #000000;
+    background: hsl(0, 0%, 0%) tr;
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width: 550px) {
     .header-icons .icon {
         width: 35px;
         height: 35px;
-        font-size: 35px
+        font-size: 35px;
     }
 }
