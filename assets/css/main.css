@@ -395,11 +395,10 @@ ul {
 }
 
 .header {
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     color: #000000;
     position: absolute;
-    font-family: "Jersey 15" ;/*"Futura PT", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
     width: 100%;
     top: 50%;
     left: 50%;
@@ -411,7 +410,8 @@ ul {
 .header .site-title {
     font-size: 35px;
     display: block;
-    line-height: 1;
+    font-family: "Pacifico";/*"Futura PT", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    line-height: 2;
     color: #000000;
 }
 
@@ -467,9 +467,9 @@ ul {
 .header-icons .icon {
     height: 25px;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 55%;
     border: 2px solid #000000;
-    transition: all 0.4s;
+    transition: all 0.6s;
     width: 25px;
     font-size: 25px;
     margin: 6px;
@@ -477,8 +477,9 @@ ul {
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
-    color: #000000;
+    color: #ffffff;
     background: hsl(0, 0%, 0%) tr;
+    background-color: #000000;
 }
 
 @media only screen and (min-width: 550px) {
