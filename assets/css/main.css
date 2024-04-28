@@ -14,6 +14,7 @@ body {
     font-size: 100%;
     line-height: 1.5;
     color: #fff0;
+    overflow: hidden; /* Hide scrollbars */
     font-family: 'Nunito Sans', sans-serif
 }
 
