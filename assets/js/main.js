@@ -13,7 +13,7 @@ document.addEventListener(
             image: { src: "img/github.svg", width: 100, height: 100 },
           },
           opacity: {
-            value: 0.5,
+            value: 0.7,
             random: !1,
             anim: { enable: !1, speed: 1, opacity_min: 0.1, sync: !1 },
           },
@@ -23,7 +23,7 @@ document.addEventListener(
             anim: {
               enable: !1,
               speed: 19.18081918081918,
-              size_min: 0.1,
+              size_min: 0.8,
               sync: !1,
             },
           },
@@ -36,12 +36,12 @@ document.addEventListener(
           },
           move: {
             enable: !0,
-            speed: 2,
+            speed: 1.5,
             direction: "random",
             random: !0,
             straight: !1,
             out_mode: "out",
-            bounce: !1,
+            bounce: !0,
             attract: { enable: !1, rotateX: 600, rotateY: 1200 },
           },
           nb: 80,
@@ -50,7 +50,7 @@ document.addEventListener(
           detect_on: "canvas",
           events: {
             onhover: { enable: !1, mode: "grab" },
-            onclick: { enable: !0, mode: "push" },
+            onclick: { enable: !1, mode: "push" },
             resize: !0,
           },
           modes: {
