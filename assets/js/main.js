@@ -37,10 +37,10 @@ document.addEventListener(
           move: {
             enable: !0,
             speed: 2,
-            direction: "center",
+            direction: "random",
             random: !0,
             straight: !1,
-            out_mode: "in",
+            out_mode: "out",
             bounce: !1,
             attract: { enable: !1, rotateX: 600, rotateY: 1200 },
           },
